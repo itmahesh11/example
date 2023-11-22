@@ -26,7 +26,7 @@ public class AIHtmlTest {
              */
             FileWriter myWriter = new FileWriter("D:\\R&D-Copilot-AI\\Project-1\\test.html");
 
-            myWriter.write("<html>\n<body>\n<h1>Hello, Mahesh!</h1>\n<label for='name'>Name:</label>\n<input type='text' id='name' name='name'>\n<button type='button' onclick='showSuccess()'>Click Me!</button>\n");
+            myWriter.write("<html>\n<body>\n<h1>Hi, Mahesh!</h1>\n<label for='name'>Name:</label>\n<input type='text' id='name' name='name'>\n<button type='button' onclick='showSuccess()'>Click Me!</button>\n");
 
             myWriter.write("<script>\n");
             myWriter.write("function showSuccess() {\n");
