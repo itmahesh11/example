@@ -7,7 +7,7 @@ public class SeleniumTest {
 
         //write selenium program in java for website https://only-testing-blog.blogspot.com/2014/01/textbox.html 
         //to enter text in text box and click on button
-        fr
+       
         
     }
     
