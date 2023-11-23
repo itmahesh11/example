@@ -8,6 +8,7 @@ public class IdCardGen {
     public static void main(String[] args) {
         String filePath = "D:/R&D-Copilot-AI/Project-4/id.html";
 
+        
         try {
             FileWriter fileWriter = new FileWriter(filePath);
             fileWriter.write("<html><meta http-equiv=\"refresh\" content=\"10\"><body><h1>ID Card</h1>");
@@ -28,6 +29,7 @@ public class IdCardGen {
             // Add image
             fileWriter.write("<img src=\"D:/R&D-Copilot-AI/Project-3/dennis.png\" alt=\"Dennis Image\" style=\"height: 125px; width: 125px; margin: 0 auto;\">");
 
+            
             fileWriter.write("</div>");
 
             fileWriter.write("</div>");
